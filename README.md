@@ -5,5 +5,4 @@
 
 ```bash
 gcc game.c -o game.exe -O3 -march=native -flto -funroll-loops -Wall -Wextra -lwinmm -Wformat=0 
-start cmd -ArgumentList '/k game.exe'
 ```
